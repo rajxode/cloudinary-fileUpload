@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Form</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Post Form
+        </h1>
+
+        <div>
+            <form method="POST" action="/postFormData" enctype="multipart/form-data">
+                <label for="firstname">FirstName</label>
+                <input type="text" name="firstname" id="firstname"/>
+                <br />
+                <label for="lastname">LastName</label>
+                <input type="text" name="lastname" id="lastname"/>
+                <br />
+                <label for="file">file</label>
+                <input type="file" name="file" id="file"/>
+                <br />
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
