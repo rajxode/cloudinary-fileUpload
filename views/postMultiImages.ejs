@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post Multiple Image</title>
+
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
         rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
         crossorigin="anonymous">
@@ -15,12 +17,19 @@
         </h1>
 
         <div>
+            <!-- form -->
             <form method="POST" action="/postMultiImage" enctype="multipart/form-data">
+                
+                <!-- select multiple files to upload -->
                 <div class="mb-3">
                     <input type="file" name="sampleFile" multiple class="form-control">
                 </div>
+
+                <!-- submit button -->
                 <button type="submit" class="btn btn-primary">Submit</button>
+            
             </form>
+
         </div>
     </div>
 </body>
